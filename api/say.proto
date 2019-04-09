@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package say;
 
-service TextToSpeed{
+service TextToSpeech{
     rpc Say(Text) returns(Speech) {}
 }
 
