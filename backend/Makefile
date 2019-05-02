@@ -3,6 +3,7 @@ build:
 	go get -u github.com/golang/protobuf/proto
 	go get -u golang.org/x/net/context
 	go get -u google.golang.org/grpc
+	go get -u golang.org/x/sys/unix
 	GOOS=linux go build -o app
 	docker build -t ray/say-grpc .
 	rm -f app
