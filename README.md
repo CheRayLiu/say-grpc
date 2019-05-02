@@ -15,7 +15,7 @@ With `go` installed and `$GOPATH` set:
 * `go get github.com/CheRayLiu/say-grpc`
 * `cd $GOPATH/src/github.com/CheRayLiu/say-grpc`
 
-### Running the application
+## Using the application through Kubernetes
 * `cd say`
 * `go run main.go -b 35.203.10.191:8080 "text"`, with "text" being the text desired to turn into speech
 * ##### For macOS users:
