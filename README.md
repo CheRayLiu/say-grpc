@@ -1,8 +1,8 @@
-#Say-gRPC
+# Say-gRPC
 
 Say-gRPC is project created with Go, gRPC and flite (Open source text to speech synthesis engine)
 
-##Getting Started 
+## Getting Started 
 
 Install [GO](https://golang.org/) v1.12.3 on your machine, and udpate your `.bash_profile` with:
 
@@ -15,7 +15,7 @@ With `go` installed and `$GOPATH` set:
 * `go get github.com/CheRayLiu/say-grpc`
 * `cd $GOPATH/src/github.com/CheRayLiu/say-grpc`
 
-###Running the application
+### Running the application
 * `cd say`
 * `go run main.go -b 35.203.10.191:8080 "text"`, with "text" being the text desired to turn into speech
 * ##### For macOS users:
@@ -24,7 +24,7 @@ With `go` installed and `$GOPATH` set:
 * ##### For users with a different OS :
     The sound file will generate in `$GOPATH/src/github.com/CheRayLiu/say-grpc/say` and can be played with a media player
 
-##Running the application locally
+## Running the application locally
 * Download start [Docker](https://www.docker.com/)
 * Run `make build` to build the project
 * Run `make start`
