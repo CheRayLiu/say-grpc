@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: say
-        image: gcr.io/neat-library-237522/say
+        image: gcr.io/ray-say-grpc/say
         ports:
         - containerPort: 8080
 ---
