@@ -15,7 +15,7 @@ With `go` installed and `$GOPATH` set:
 * `go get github.com/CheRayLiu/say-grpc`
 * `cd $GOPATH/src/github.com/CheRayLiu/say-grpc`
 
-### Running the application
+## Using the application through Kubernetes
 * `cd say`
 * `go run main.go -b 35.203.10.191:8080 "text"`, with "text" being the text desired to turn into speech
 * ##### For macOS users:
@@ -25,10 +25,10 @@ With `go` installed and `$GOPATH` set:
     The sound file will generate in `$GOPATH/src/github.com/CheRayLiu/say-grpc/say` and can be played with a media player
 
 ## Running the application locally
-* Download start [Docker](https://www.docker.com/)
+* Download and start [Docker](https://www.docker.com/)
 * Run `make build` to build the project
 * Run `make start`
-* Open seperate terminal and `cd $GOPATH/src/github.com/CheRayLiu/say-grpc/say`
+* Open a seperate terminal and `cd $GOPATH/src/github.com/CheRayLiu/say-grpc/say`
 * Run `go run main.go text`, with "text" being the text desired to turn into speech
 
 * ##### For macOS users:
